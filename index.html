@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parfumy z Parfumerka.eu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .perfume-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            gap: 20px;
+        }
+        .perfume-image {
+            flex: 0 0 200px;
+            position: relative;
+        }
+        .perfume-image a {
+            display: block;
+            text-decoration: none;
+        }
+        .perfume-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            object-fit: cover;
+            transition: transform 0.2s;
+        }
+        .perfume-image a:hover img {
+            transform: scale(1.05);
+        }
+        .perfume-content {
+            flex: 1;
+        }
+        .perfume-name {
+            color: #2c5282;
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .perfume-name a {
+            text-decoration: none;
+            color: inherit;
+        }
+        .perfume-name a:hover {
+            color: #2c5282;
+        }
+        .price {
+            color: #2c5282;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .details {
+            margin-top: 10px;
+            color: #777;
+            text-align: justify;
+        }
+        .details .highlight {
+            color: #2c5282;
+            font-weight: bold;
+        }
+        .fragrance-notes {
+            background-color: #f8f9fa;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 10px;
+        }
+        @media (max-width: 768px) {
+            .perfume-card {
+                flex-direction: column;
+            }
+            .perfume-image {
+                flex: 0 0 auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<h1>Katalóg Parfumov</h1>
+
+<div id="perfumeContainer">
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/karl-lagerfeld-fleur-de-pecher-edp-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/karl-lagerfeld-fleur-de-pecher-edp-100-ml-8565.jpg"
+                     alt="Karl Lagerfeld Fleur de Pêcher">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/karl-lagerfeld-fleur-de-pecher-edp-100-ml/">Karl Lagerfeld - Fleur de Pêcher</a></h2>
+            <div class="details">
+                <p class="highlight">Sviežá a kvetinová vôňa s ovocnými tónmi z broskyní.</p>
+                <p>Táto elegantná parfumovaná voda je oslavou jemnosti a čistoty. Dominuje jej osviežujúca kombinácia šťavnatej hrušky a yuzu, ktorú v srdci dopĺňa delikátny broskyňový kvet a upokojujúci jazmínový čaj.
+                    Výsledkom je nežná, kvetinovo-ovocná kompozícia s pižmovým základom, ktorá pôsobí moderne, vzdušne a mimoriadne žensky. Ideálna voľba na každodenné nosenie počas jari a leta.</p>
+                <h4>Prečo je obľúbená?</h4>
+                <ul>
+                    <li><strong>Minimalizmus:</strong> Flakón aj vôňa odrážajú čistý štýl Karla Lagerfelda.
+                    <li><strong>Univerzálnosť:</strong> Hodí sa do kancelárie aj na voľný čas.
+                    <li><strong>Pomer cena/kvalita:</strong> Ponúka luxusný dojem za veľmi dostupnú cenu.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/guess-iconic-parfumovana-voda-pre-zeny-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/guess-iconic-parfumovana-voda-pre-zeny-100-ml-15651.jpg"
+                     alt="Guess Iconic">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/guess-iconic-parfumovana-voda-pre-zeny-100-ml/">Guess - Iconic</a></h2>
+            <div class="details">
+                <p class="highlight">Ikonická vôňa s orientálnym a kvetinkovým charakterom.</p>
+                <p>Táto podmanivá kvetinovo-ambrová vôňa stelesňuje vnútornú silu a eleganciu modernej ženy. Úvod vás osvieži iskrivou mandarínkou a ružovým korením, ktoré v srdci prechádzajú do zmyselnej zmesi
+                    pomarančového kvetu a ylang-ylang s morským nádychom. Základ z hrejivej ambry, machu a pižma zanecháva na pokožke sofistikovanú, dlhotrvajúcu stopu plnú sebavedomia a žiarivého magnetizmu.
+                </p>
+                <h4>Čím vyniká?</h4>
+                <ul>
+                    <li><strong>Typ vône:</strong> Kvetinová, mierne citrusová a akvatická.
+                    <li><strong>Hlavné tóny:</strong> Mandarínka, ružové korenie, pomarančový kvet a ambra.
+                    <li><strong>Príležitosť: </strong> Je ideálna na každodenné nosenie, kedy chcete pôsobiť upravene a charizmaticky.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/jimmy-choo-i-want-choo-parfumovana-voda-pre-zeny-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/jimmy-choo-i-want-choo-parfumovana-voda-pre-zeny-125-ml-tester-12667.jpg"
+                     alt="Jimmy Choo I Want Choo">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/jimmy-choo-i-want-choo-parfumovana-voda-pre-zeny-100-ml/">Jimmy Choo - I Want Choo</a></h2>
+            <div class="details">
+                <p class="highlight">Elegantná a zmyselná vôňa s kvetinovo-orientálnym charakterom.</p>
+                <p>
+                    Táto luxusná orientálno-kvetinová vôňa je stelesnením glamouru a radosti. Otvára sa iskrivou kombináciou šťavnatej mandarínky a zamatovej broskyne, ktorá plynule prechádza do zmyselného srdca z
+                    červenej ľalie a jazmínu. Základ tvorí hrejivá vanilka, dodávajúca parfumu hĺbku a neodolateľný šarm. Je to odvážna, elegantná a oslnivá vôňa stvorená pre nezabudnuteľné chvíle.
+                </p>
+                <h4>Čím je táto vôňa výnimočná?</h4>
+                <ul>
+                    <li><strong>Charakter:</strong> Je výraznejšia a sladšia než Fleur de Pêcher, ideálna na večer alebo sebavedomé denné nosenie.
+                    <li><strong>Flakón:</strong> Má ikonický dizajn so zlatým logom JC, ktorý pôsobí ako šperk na toaletnom stolíku.
+                    <li><strong>Výdrž:</strong> Vďaka vanilkovému základu má veľmi dobrú trvácnosť na pokožke.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/michael-kors-pour-femme-parfumovana-voda-pre-zeny-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/michael-kors-pour-femme-parfumovana-voda-pre-zeny-100-ml-16293.jpg"
+                     alt="Michael Kors Pour Femme">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/michael-kors-pour-femme-parfumovana-voda-pre-zeny-100-ml/">Michael Kors - Pour Femme</a></h2>
+            <div class="details">
+                <p class="highlight">Sofistikovaná kvetinovo-drevitá vôňa s pižmovými tónmi.</p>
+                <p>
+                    Táto luxusná kvetinovo-drevitá vôňa vyžaruje sebaistotu a moderný pôvab. Štartuje sviežimi tónmi mandarínky a čiernych ríbezlí, ktoré v srdci strieda elegantný jazmín a bulharská ruža. Hrejivý základ
+                    z pačuli a pižma dodáva kompozícii hĺbku a rafinovanosť. Je to sofistikovaný parfum pre ženu, ktorá túži po pocite luxusu a nadčasovej elegancii počas celého dňa.
+                </p>
+                <h4>Čím vás zaujme?</h4>
+                <ul>
+                    <li><strong>Pocit:</strong> Pôsobí veľmi čisto, ale zároveň sýto a krémovo.
+                    <li><strong>Flakón:</strong> Ikonický dizajn s masívnymi článkami reťaze odkazuje na módne doplnky značky.
+                    <li><strong>Využitie:</strong> Skvelá voľba na jeseň a zimu, kedy krásne vyniknú jej hrejivé spodné tóny.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/giorgio-armani-acqua-di-gioia-edp-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/giorgio-armani-acqua-di-gioia-edp-50-ml-5395.jpg"
+                     alt="Giorgio Armani - Acqua di Gioia">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/giorgio-armani-acqua-di-gioia-edp-100-ml/">Giorgio Armani - Acqua di Gioia</a></h2>
+            <div class="details">
+                <p class="highlight">Čerstvá a neformálna vôňa inšpirovaná morským vetrom a slnkom.</p>
+                <p>
+                    Táto ikonická vôňa je oslavou radosti a nespútanej prírody. Okamžite vás osvieži iskrivou kombináciou drvenej mäty a citróna, ktorú v srdci dopĺňa nežný vodný jazmín. Základ z cédrového dreva a
+                    hnedého cukru dodáva kompozícii jemnú hĺbku a ženskosť. Je to priezračná, čistá a povzbudzujúca vôňa, ktorá pripomína sviežosť morského vánku. </p>
+                <h4>Prečo si ju zamilujete?</h4>
+                <ul>
+                    <li><strong>Pocit:</strong> Pôsobí ako letná dovolenka pri mori, je ľahká a nezaťažujúca.
+                    <li><strong>Typ:</strong> Ideálna voľba pre milovníčky citrusových a vodných (akvatických) tónov.
+                    <li><strong>Využitie:</strong> Najlepšie vynikne počas horúcich letných dní.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/burberry-goddess-intense-parfumovana-voda-pre-zeny-100-ml//">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/burberry-goddess-intense-parfumovana-voda-pre-zeny-50-ml-16012.jpg"
+                     alt="Burberry Goddess Intense">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/burberry-goddess-intense-parfumovana-voda-pre-zeny-100-ml">Burberry - Goddess Intense</a></h2>
+            <div class="details">
+                <p class="highlight">Intenzívna a zmyselná vôňa s orientálnymi tónmi.</p>
+                <p>
+                    Táto podmanivá gurmánska vôňa prehlbuje pôvodný príbeh o sile a sebavedomí. Dominuje jej trio výrazných vaniliek, ktoré dopĺňa dymový nádych levandule a hrejivé drevité tóny pačuli. Výsledkom je
+                    intenzívna, bohatá a magnetická kompozícia, ktorá na pokožke zanecháva hlbokú stopu. Je to ideálna voľba pre ženu, ktorá hľadá sofistikovanosť s nádychom mystiky. </p>
+                <h4>Čím sa líši od pôvodnej verzie?</h4>
+                <ul>
+                    <li><strong>Intenzita:</strong> Je temnejšia a sýtejšia než klasická Goddess.
+                    <li><strong>Kľúčové tóny:</strong> Obsahuje špeciálnu vanilkovú infúziu s drevitým charakterom.
+                    <li><strong>Vhodnosť:</strong> Vynikajúca najmä na večerné príležitosti a chladnejšie mesiace.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/valentino-donna-born-in-roma-intense-parfumovana-voda-pre-zeny-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/resized/valentino-donna-born-in-roma-intense-parfumovana-voda-pre-zeny-100-ml-16514.thumb_365x365.jpg?955368"
+                     alt="Valentino Donna Born in Roma Intense">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/valentino-donna-born-in-roma-intense-parfumovana-voda-pre-zeny-100-ml/">Valentino - Donna Born in Roma
+                Intense</a></h2>
+            <div class="details">
+                <p class="highlight">Luxusná dámska vôňa inšpirovaná Rímom.</p>
+                <p>
+                    Táto neodolateľná kvetinovo-ambrová vôňa je poctou rímskej noci a sebavedomiu. Dominuje jej podmanivá vanilka, ktorú v srdci dopĺňa omamný jazmín, dodávajúci kompozícii luxusný rozmer. Hrejivý základ
+                    z benzoinu zvyšuje intenzitu a hĺbku celého parfumu. Je to odvážna, zmyselná a magnetická vôňa pre ženu, ktorá chce za sebou zanechať nezabudnuteľnú a elegantnú stopu.
+                </p>
+                <h4>Prečo je táto verzia výnimočná?</h4>
+                <ul>
+                    <li><strong>Charakter:</strong> Oproti klasickej verzii je sladšia, krémovejšia a má výrazne dymový podtón.
+                    <li><strong>Výdrž:</strong> Vďaka koncentrácii Intense ponúka vynikajúcu trvácnosť na pokožke aj oblečení.
+                    <li><strong>Flakón:</strong> Ikonický dizajn s hrotmi "Rockstud" je v tejto verzii zahalený do temného ombre efektu.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="perfume-card">
+        <div class="perfume-image">
+            <a href="https://www.parfumerka.eu/parfumovana-voda/jean-paul-gaultier-gaultier-divine-le-parfum-parfumovana-voda-pre-zeny-100-ml/">
+                <img src="https://www.parfumerka.eu/sub/parfumerka.eu/shop/product/jean-paul-gaultier-gaultier-divine-le-parfum-parfumovana-voda-pre-zeny-100-ml-15955.jpg"
+                     alt="Jean Paul Gaultier Gaultier Divine Le Parfum">
+            </a>
+        </div>
+        <div class="perfume-content">
+            <h2 class="perfume-name"><a href="https://www.parfumerka.eu/parfumovana-voda/jean-paul-gaultier-gaultier-divine-le-parfum-parfumovana-voda-pre-zeny-100-ml/">Jean Paul Gaultier Gaultier - Divine Le Parfum</a>
+            </h2>
+            <div class="details">
+                <p class="highlight">Božská a vyrafinovaná vôňa s orientálnym a vanilkovým nádychom.</p>
+                <p>
+                    Táto intenzívna kvetinovo-gurmánska vôňa je oslavou božskej ženskosti a sily. Kompozícii dominuje odvážna kombinácia slnečnej plumérie a vzácnej ľalie, ktorú dopĺňa štipka morskej soli a hrejivý
+                    jantár. Základ z podmanivého benzoínu dodáva parfumu hĺbku a magnetickú príťažlivosť. Je to žiarivá, sýta a mimoriadne zmyselná vôňa, ktorá zanecháva nezabudnuteľnú, luxusnú stopu.
+                </p>
+                <h4>Čím vyniká?</h4>
+                <ul>
+                    <li><strong>Charakter:</strong> Je intenzívnejšia a teplejšia než pôvodná verzia Divine.
+                    <li><strong>Flakón:</strong> Kultový korzet v žiarivom zlatom prevedení symbolizuje sebavedomie.
+                    <li><strong>Typ vône:</strong> Solárna a ambrová s typickým slaným podtónom JPG.
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+
