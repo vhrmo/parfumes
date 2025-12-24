@@ -25,6 +25,9 @@
         .perfume-image {
             flex: 0 0 200px;
             position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
         .perfume-image a {
             display: block;
@@ -51,14 +54,12 @@
         .perfume-name a {
             text-decoration: none;
             color: inherit;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s ease;
         }
         .perfume-name a:hover {
-            color: #2c5282;
-        }
-        .price {
-            color: #2c5282;
-            font-weight: bold;
-            margin: 15px 0;
+            color: darkblue;
+            border-bottom-color: #1a365d;
         }
         .details {
             margin-top: 10px;
@@ -75,7 +76,10 @@
             border-radius: 4px;
             margin-top: 10px;
         }
-        @media (max-width: 768px) {
+        ul {
+            padding-left: 20px;
+        }
+        @media (max-width: 680px) {
             .perfume-card {
                 flex-direction: column;
             }
